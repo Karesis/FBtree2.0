@@ -188,4 +188,4 @@ FBtree 2.0 provides excellent performance for both single-threaded and parallel 
 
 ## License
 
-MIT License
+LGPL-3.0
