@@ -184,7 +184,7 @@ FBtree 2.0 provides excellent performance for both single-threaded and parallel 
 
 The library guarantees thread safety for all operations, protecting your data even under high concurrency:
 
-![Thread Safety Test Results](thread_safety_test.png)
+![Thread Safety Test Results](https://raw.githubusercontent.com/Karesis/FBtree2.0/master/thread_safety_test.png)
 
 *The graph shows comparison between atomic operations (which maintain data integrity) and non-atomic operations (which suffer from race conditions).*
 
@@ -192,7 +192,7 @@ The library guarantees thread safety for all operations, protecting your data ev
 
 FBtree 2.0 achieves significant speedup through parallel processing:
 
-![Parallel Performance](parallel_performance.png)
+![Parallel Performance](https://raw.githubusercontent.com/Karesis/FBtree2.0/master/parallel_performance.png)
 
 *Left: Execution time comparison between serial and parallel processing. Right: Speedup relative to CPU core count.*
 

@@ -184,7 +184,7 @@ FBtree 2.0为单线程和并行操作提供卓越的性能。并行实现可以�
 
 该库保证所有操作的线程安全性，即使在高并发环境下也能保护您的数据：
 
-![线程安全测试结果](thread_safety_test.png)
+![线程安全测试结果](https://raw.githubusercontent.com/Karesis/FBtree2.0/master/thread_safety_test.png)
 
 *图表显示了原子操作（保持数据完整性）与非原子操作（存在竞态条件）的比较。*
 
@@ -192,7 +192,7 @@ FBtree 2.0为单线程和并行操作提供卓越的性能。并行实现可以�
 
 FBtree 2.0通过并行处理实现了显著的性能提升：
 
-![并行性能](parallel_performance.png)
+![并行性能](https://raw.githubusercontent.com/Karesis/FBtree2.0/master/parallel_performance.png)
 
 *左图：串行和并行处理的执行时间比较。右图：相对于CPU核心数的加速比。*
 
